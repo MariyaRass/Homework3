@@ -91,7 +91,7 @@ public class Main {
         double newMariya = mariya * 1.1;
         var incomeForTheYearNew = (newMariya * 12) - mariaForTheYear;
         System.out.println("Маша теперь получает " + newMariya + " рублей. Годовой доход вырос на " + incomeForTheYearNew + " рублей.");
-        double newDenis = denis * 1.1;
+        float newDenis = (float) (denis * 1.1);
         var incomeForTheYearNew2 = (newDenis * 12) - denisForTheYear;
         System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + incomeForTheYearNew2 + " рублей.");
         double newKristina = kristina * 1.1;
